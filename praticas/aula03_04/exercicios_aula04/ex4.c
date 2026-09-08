@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-//A diferença de DEFINE para const é
+/*A diferença de DEFINE para const é que DEFINE é uma diretiva de pré-processador,ou seja, o valor
+é substituído no código antes da compilação. Já const é uma variável que não pode ser alterada após
+a sua inicialização, e seu valor é determinado em tempo de execução.*/
 
 #define PI 3.14159
 const float GRAVIDADE = 9.8;
