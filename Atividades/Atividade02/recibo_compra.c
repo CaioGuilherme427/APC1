@@ -10,7 +10,7 @@ int main() {
     char Cliente[100];
     int cod_produto;
     char nome_produto[100];
-    int qnt_produto;
+    int qnt_produto = 0;
     float preco_produto;
     char categoria;
     float total;
@@ -25,8 +25,14 @@ int main() {
     printf("Nome do produto: ");
     fgets(nome_produto, sizeof(nome_produto), stdin);
 
-    printf("Quantidade do produto: ");
+    while (qnt_produto <= 0) {
+    printf("Quantidade: ");
     scanf("%d", & qnt_produto);
+    
+        if (qnt_produto <= 0) {
+            printf("Erro: A quantidade nao pode ser negativa!\n");
+        }
+    }
 
     printf("Preco do produto: ");
     scanf("%f", & preco_produto);
@@ -42,8 +48,8 @@ int main() {
     printf("Codigo: %d\n", cod_produto);
     printf("Categoria: %c\n", categoria);
     printf("Quantidade: %d\n", qnt_produto);
-    printf("Unidade: %.2f\n", preco_produto);
-    printf("Total: %.2f\n", total);
+    printf("Unidade: R$%.2f\n", preco_produto);
+    printf("Total: R$%.2f\n", total);
 
     return 0;
 }
