@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-
     int x = 5/2;
     int y = x++;
     int z = x%2;
