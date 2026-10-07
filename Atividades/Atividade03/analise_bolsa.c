@@ -1,12 +1,8 @@
-/*
- * RESPOSTA CURTA (JUSTIFICATIVA E ESTRUTURA):
- * O programa aplica 'if-else' na validacao inicial para tratar dados invalidos e
- * garantir a correta execucao do fluxo. Em seguida, emprega uma estrutura 'if-else-if'
- * para classificar o aluno em faixas sociais (A, B ou C) de acordo com a renda familiar.
- * Dentro de cada faixa, utiliza 'if' aninhado para definir o desconto base a partir da media.
- * O bonus de pontualidade e calculado com o operador ternario '?:', finalizando com a 
- * exibicao dos dados e respeitando a indentacao e padronizacao do C ANSI.
- */
+/* O ternário é mais vantajoso no bônus de pontualidade porque permite uma
+atribuição condicional direta e simples, evitando o excesso de código do
+if-else tradicional para um teste simples. Já o if aninhado ficou
+indispensável no desconto acadêmico porque a validação é em duas etapas:
+primeiro filtra a faixa social e, dentro dela, avalia a média do aluno. */
 
 #include <stdio.h>
 
@@ -25,16 +21,16 @@ int main() {
     fgets(nome, sizeof(nome), stdin);
 
     printf("Idade: ");
-    scanf("%d", &idade);
+    scanf("%d", & idade);
 
     printf("Renda familiar mensal (R$): ");
-    scanf("%f", &renda);
+    scanf("%f", & renda);
 
     printf("Media academica (0.0 a 10.0): ");
-    scanf("%f", &media);
+    scanf("%f", & media);
 
     printf("Pontualidade no pagamento (S/N): ");
-    scanf(" %c", &pontualidade);
+    scanf(" %c", & pontualidade);
 
     if (idade < 16 || renda <= 0.0f) {
         printf("\nErro: Dados invalidos para analise de bolsa.\n");
