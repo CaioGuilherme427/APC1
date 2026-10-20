@@ -8,6 +8,6 @@ int main() {
     printf("Caio Guilherme\n");
 
     //Esse printf mostra a disciplina cursada
-    printf("Algoritmo e Programacao de Computadores 1");
+    printf("Algoritmo e Programação de Computadores 1");
     return 0;
 }
