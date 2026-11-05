@@ -1,0 +1,92 @@
+﻿===== SISTEMA DE GESTAO ACADEMICA =====
+1. Cadastrar Lista de Alunos (Vetor de Strings)
+2. Estatisticas de Desempenho (Vetor de Float)
+3. Matriz de Notas da Turma (Matriz Bidimensional)
+4. Consultar Aluno em Destaque (Pesquisa em Matriz/Vetor)
+0. Encerrar
+Opcao: 1
+
+--- CADASTRO DE ALUNOS ---
+Digite o nome do aluno 1: Ana Souza
+Digite o nome do aluno 2: Bruno Lima
+Digite o nome do aluno 3: Carla Dias
+Digite o nome do aluno 4: Daniel Pereira
+Digite o nome do aluno 5: Eduardo Santos
+
+Alunos cadastrados com sucesso:
+1. Ana Souza
+2. Bruno Lima
+3. Carla Dias
+4. Daniel Pereira
+5. Eduardo Santos
+
+===== SISTEMA DE GESTAO ACADEMICA =====
+1. Cadastrar Lista de Alunos (Vetor de Strings)
+2. Estatisticas de Desempenho (Vetor de Float)
+3. Matriz de Notas da Turma (Matriz Bidimensional)
+4. Consultar Aluno em Destaque (Pesquisa em Matriz/Vetor)
+0. Encerrar
+Opcao: 2
+
+--- ESTATISTICAS DE DESEMPENHO ---
+Digite a nota final do aluno 1: 7.5
+Digite a nota final do aluno 2: 8.0
+Digite a nota final do aluno 3: 6.0
+Digite a nota final do aluno 4: 9.5
+Digite a nota final do aluno 5: 5.0
+
+Media geral da turma: 7.20
+Alunos com nota maior ou igual a media: 3
+
+===== SISTEMA DE GESTAO ACADEMICA =====
+1. Cadastrar Lista de Alunos (Vetor de Strings)
+2. Estatisticas de Desempenho (Vetor de Float)
+3. Matriz de Notas da Turma (Matriz Bidimensional)
+4. Consultar Aluno em Destaque (Pesquisa em Matriz/Vetor)
+0. Encerrar
+Opcao: 3
+
+--- MATRIZ DE NOTAS DA TURMA (3 Alunos x 4 Bimestres) ---
+Cadastrando notas para o Aluno 1:
+  - Bimestre 1: 8.0
+  - Bimestre 2: 7.5
+  - Bimestre 3: 9.0
+  - Bimestre 4: 8.5
+Cadastrando notas para o Aluno 2:
+  - Bimestre 1: 6.0
+  - Bimestre 2: 6.5
+  - Bimestre 3: 7.0
+  - Bimestre 4: 7.5
+Cadastrando notas para o Aluno 3:
+  - Bimestre 1: 9.0
+  - Bimestre 2: 9.5
+  - Bimestre 3: 8.5
+  - Bimestre 4: 10.0
+
+--- BOLETIM DA TURMA ---
+Aluno   B1      B2      B3      B4      Media Simples
+[1]     8.0     7.5     9.0     8.5     8.25
+[2]     6.0     6.5     7.0     7.5     6.75
+[3]     9.0     9.5     8.5     10.0    9.25
+
+===== SISTEMA DE GESTAO ACADEMICA =====
+1. Cadastrar Lista de Alunos (Vetor de Strings)
+2. Estatisticas de Desempenho (Vetor de Float)
+3. Matriz de Notas da Turma (Matriz Bidimensional)
+4. Consultar Aluno em Destaque (Pesquisa em Matriz/Vetor)
+0. Encerrar
+Opcao: 4
+
+--- CONSULTAR ALUNO EM DESTAQUE ---
+A maior nota da turma e 9.50, encontrada no indice 3 (Aluno 4).
+Nome do aluno em destaque: Daniel Pereira
+
+===== SISTEMA DE GESTAO ACADEMICA =====
+1. Cadastrar Lista de Alunos (Vetor de Strings)
+2. Estatisticas de Desempenho (Vetor de Float)
+3. Matriz de Notas da Turma (Matriz Bidimensional)
+4. Consultar Aluno em Destaque (Pesquisa em Matriz/Vetor)
+0. Encerrar
+Opcao: 0
+
+Encerrando o Sistema de Gestao Academica. Ate logo!
