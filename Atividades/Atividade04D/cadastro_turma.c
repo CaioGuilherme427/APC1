@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-
 #define MAX 30
 
 enum StatusAluno { REPROVADO = 0, RECUPERACAO = 1, APROVADO = 2 };
